@@ -2,4 +2,88 @@
     margin: auto;
     height: 750px;
     width: 1000px;
+    margin-top: 100px;
+    }
+    body {
+        background-color: lightgray;
+    }
+    .carousel-inner {
+        height: 50%;
+        width: 80%;
+        margin-left: 350px;
+    }
+
+    .h2 {
+        color:#34dceb;
+    }
+
+    .p-carousel {
+        color:#34dceb;
+    }
+
+    .card-section {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        margin: 100px 100px;
+        background-color: #34dceb;  
+        height: 150px;
+    }
+
+.card-container {
+    height: 900px;
+    width: 100%;
 }
+
+    .card {
+        margin: 75px;
+        height: 600px;
+        max-width: 600px;
+        background-color: gray;
+    }
+
+    .card p {
+        font-size: 40px;
+    }
+    .card-color {
+        background-color: gray;
+        color: white;
+        text-align:center;
+    }
+
+    .planet {
+        margin: 100px; 
+    }
+    
+    .save-planet {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-container {
+        display:flex;
+        flex-direction: column;
+        height: 800px;
+        width: 800px;
+    }
+    .h1-container {
+        color:white;
+        background-color: orange;
+        width: 1000px;
+        height: 300px;
+        text-align: center;
+        padding: 60px 10px;
+        position: relative;
+        top: 30%;
+        right: 50%;
+    }
+    .text-container p {
+        position: relative;
+        top: 50%;
+    }
+
+    .article-paragraph {
+        font-size:large;
+        font-weight: 1000;
+        
+    }
